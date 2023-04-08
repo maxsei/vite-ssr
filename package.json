@@ -1,14 +1,20 @@
 {
-  "name": "vite-ssr",
+  "name": "vite-ssr2",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.1.0"
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "@tsconfig/svelte": "^3.0.0",
+    "prettier-plugin-svelte": "^2.10.0",
+    "svelte": "^3.55.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
   }
 }
